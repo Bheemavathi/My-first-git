@@ -1,0 +1,10 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+
+def second(request):
+    return HttpResponse('hi good afternoon')
+
+def third(request):
+     return HttpResponse('hi good afternoon')
